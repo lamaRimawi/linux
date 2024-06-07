@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCS3320-Course Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .content {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .welcome-message {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .welcome-message span {
+            color: red;
+        }
+        .student {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .student img {
+            margin-right: 20px;
+            width: 250px; /* Increased width */
+            height: 250px; /* Increased height */
+            object-fit: contain; /* Ensures the entire image is visible */
+            border-radius: 8px;
+        }
+        .student-details {
+            flex: 1;
+        }
+        .student-details h3 {
+            margin: 0;
+            color: #4CAF50;
+        }
+        .student-details p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ENCS3320-Course Website</h1>
+    </header>
+    <div class="content">
+        <div class="welcome-message">
+            <h2>Welcome to <span>Computer Networks</span> course</h2>
+        </div>
+        <div class="student">
+            <img src="lama.jpg" alt="Lama's Picture">
+            <div class="student-details">
+                <h3>Lama</h3>
+                <p>ID: 1213515</p>
+                <p>Program: Computer Engineering</p>
+                <p>Skills: Coding, Networking</p>
+                <p>Hobbies: Reading, Gaming</p>
+            </div>
+        </div>
+        <div class="student">
+            <img src="layan.jpg" alt="Layan's Picture">
+            <div class="student-details">
+                <h3>Layan</h3>
+                <p>ID: 1210112</p>
+                <p>Program: Computer Engineering</p>
+                <p>Skills: Software Development, Cybersecurity</p>
+                <p>Hobbies: Hiking, Photography</p>
+            </div>
+        </div>
+        <div class="student">
+            <img src="heba.jpg" alt="Heba's Picture">
+            <div class="student-details">
+                <h3>Heba</h3>
+                <p>ID: 1211315</p>
+                <p>Program: Computer Engineering</p>
+                <p>Skills: Database Management, AI</p>
+                <p>Hobbies: Painting, Traveling</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
